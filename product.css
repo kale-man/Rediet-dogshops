@@ -1,0 +1,102 @@
+body{
+background-color:azure;
+background-size: cover;
+}
+
+
+
+header{
+background-color:#123;
+height:150px;
+width:100%;
+color:white;
+position: fixed;
+top:0%;
+left:0%;    
+}
+nav{
+text-align:center;
+margin-top:60px;    
+}
+nav a{
+font-size:23px;
+color:white;
+padding:6px;
+text-decoration:none;    
+}
+nav a:hover{
+font-size:28px;
+color:gold;
+text-decoration: underline;
+text-transform:capitalize;    
+}
+.allproduct{
+display: flex;
+flex-wrap: wrap;
+margin-left:50px;
+}
+img{
+border:solid;
+border-radius:15px;
+color:white;
+width:400px;    
+height:200px;
+}
+h2{
+font-size:30px;
+color:darkmagenta;
+margin-top:180px;
+text-align:center;    
+}
+.product{
+border:solid;
+border-radius:15px;
+color:white;
+width:400px;
+height:420px;
+margin:30px; 
+padding:17px;
+box-shadow:0 0 10px rgba(0,0,0,1.1);
+}
+p{
+color:#111; 
+font-size:20px;   
+}
+h3{
+font-size:23px; 
+color:black; 
+}
+
+.container{
+background-color: #867;
+width:100%;
+bottom:0%;
+}
+#h3{
+color:white;   
+font-size:40px;
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#p{
+font-size:22px;
+text-align:center;
+}
+.section{
+text-align: center; 
+display: flex; 
+gap:80px; 
+padding:20px;
+font-size:23px; 
+}
+.h4{
+color:black;
+font-size:30px;
+padding-left:100px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+}
+.p{
+text-align: center;
+font-size:23px;
+margin-bottom:5px;    
+}
